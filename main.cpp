@@ -8,9 +8,8 @@ int main()
 vector<vector <char> >matrix;
 
 int rows, cols;
-cout<<"enter number of rows: ";
+cout<<"enter number of rows and columns of stars : ";
 cin>>rows;
-cout<<"enter number of columns: ";
 cin>>cols;
 
 //if row and column is invalid print nothing
