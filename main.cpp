@@ -11,7 +11,7 @@ int rows, cols;
 cout<<"Enter rows and columns of stars:";
 cin>>rows;
 cin>>cols;
-
+cout<<endl;
 //if row and column is invalid print nothing
 if(rows>=0 && cols>=0)
 {
