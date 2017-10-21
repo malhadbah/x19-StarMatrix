@@ -13,7 +13,7 @@ cin>>rows;
 cin>>cols;
 cout<<endl;
 //if row and column is invalid print nothing
-if(rows>=0 && cols>=0)
+if(rows>0 && cols>0)
 {
 
 
@@ -30,7 +30,9 @@ cout<<matrix[row][col];
 cout<<endl;
 }
 }
-
+else if(rows<=0 || cols<=0)
+{
+}
 
  return 0;
  }
